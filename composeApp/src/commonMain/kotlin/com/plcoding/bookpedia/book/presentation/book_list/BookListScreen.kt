@@ -67,7 +67,7 @@ fun BookListScreenRoot(
             when(action) {
                 // handle navigation
                 // ???????? how to handle navigation
-                // ???????? this is because of navigation access for preview ????????
+                // ???????? this is because of navigation access for preview ???????
                 is BookListAction.OnBookClick -> onBookClick(action.book)
                 else -> Unit
             }
